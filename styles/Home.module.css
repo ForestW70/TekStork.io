@@ -12,4 +12,48 @@
   /* align-items: center; */
 }
 
+/* icon grid */
+.quickTipBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 100px;
+}
+
+.quickTipBox > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.quickTipBox > article > p:nth-child(3) {
+  font-size: 8px;
+}
+
+.quickTipBox svg {
+  height:100px;
+  width:100px;
+}
+
+/* section 1 */
+.whoThey {
+  /* background-color: white; */
+  padding:25px;
+  border: 6px;
+}
+
+.whoThey li {
+  padding: 20px 50px;
+  margin: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  background: white;
+
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+}
 
