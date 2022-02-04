@@ -33,18 +33,35 @@ export default function Home() {
         </article>
       </div>
 
-      <div className={styles.whoThey}>
-        <h3>Who are we? And what do we really mean by king?</h3>
-        <ul>
-          <li>
-            Try-hard hot chicken beard activated charcoal keffiyeh pickled direct trade fam trust fund waistcoat readymade. Four dollar toast drinking vinegar unicorn, whatever farm-to-table selvage YOLO quinoa brunch ennui flexitarian letterpress cardigan. Twee asymmetrical ugh, schlitz sustainable pickled portland etsy edison bulb. Gentrify meh celiac PBR&B selvage, gastropub four dollar toast health goth blue bottle mlkshk ennui bitters hell of tote bag. Next level readymade helvetica bushwick meh mlkshk cold-pressed butcher meditation PBR&B.
-          </li>
-          <li>
-            +1 gluten-free typewriter, adaptogen kale chips heirloom poke seitan quinoa. Hashtag authentic pitchfork tumeric meditation typewriter. Selvage distillery glossier, pinterest helvetica cliche PBR&B jean shorts meggings. Shoreditch waistcoat direct trade, la croix portland glossier fixie vaporware. Sartorial typewriter etsy, retro keffiyeh brunch literally austin tbh raw denim next level hell of vaporware gastropub. You probably haven't heard of them vexillologist meggings yr. Glossier DIY man braid viral banjo hot chicken la croix keffiyeh actually stumptown craft beer marfa.
-          </li>
-          <li>big butts</li>
-        </ul>
-      </div>
+      <section className={styles.homeContainer}>
+        <div className={styles.whoThey}>
+          <h3>Who are we? And what do we really mean by king?</h3>
+          <ul>
+            <li>
+              Try-hard hot chicken beard activated charcoal keffiyeh pickled direct trade fam trust fund waistcoat readymade. Four dollar toast drinking vinegar unicorn, whatever farm-to-table selvage YOLO quinoa brunch ennui flexitarian letterpress cardigan. Twee asymmetrical ugh, schlitz sustainable pickled portland etsy edison bulb. Gentrify meh celiac PBR&B selvage, gastropub four dollar toast health goth blue bottle mlkshk ennui bitters hell of tote bag. Next level readymade helvetica bushwick meh mlkshk cold-pressed butcher meditation PBR&B.
+            </li>
+            <li>
+              +1 gluten-free typewriter, adaptogen kale chips heirloom poke seitan quinoa. Hashtag authentic pitchfork tumeric meditation typewriter. Selvage distillery glossier, pinterest helvetica cliche PBR&B jean shorts meggings. Shoreditch waistcoat direct trade, la croix portland glossier fixie vaporware. Sartorial typewriter etsy, retro keffiyeh brunch literally austin tbh raw denim next level hell of vaporware gastropub. You probably haven't heard of them vexillologist meggings yr. Glossier DIY man braid viral banjo hot chicken la croix keffiyeh actually stumptown craft beer marfa.
+            </li>
+            <li>big butts</li>
+          </ul>
+        </div>
+
+        <div className={styles.ourClients}>
+          <h3>What we're looking for in our clientel.</h3>
+          <ul>
+            <li>
+              I'm baby distillery literally squid salvia. Kickstarter retro salvia mollit church-key enamel pin kogi next level taiyaki mixtape street art. Semiotics leggings biodiesel venmo, cronut cliche hella fugiat mumblecore man braid twee freegan ethical. Beard af mollit ullamco, church-key offal viral. Raw denim id subway tile, food truck sustainable labore hot chicken selfies.
+            </li>
+            <li>
+              Polaroid paleo cliche palo santo lyft, bespoke pour-over schlitz health goth adipisicing lumbersexual. Roof party deep v chia fugiat post-ironic kogi mlkshk 8-bit godard aesthetic woke.
+
+              Dummy text? More like dummy thicc text, amirite?
+            </li>
+          </ul>
+        </div>
+
+      </section>
 
       <div>
         <span>What makes Us stand out.</span>
