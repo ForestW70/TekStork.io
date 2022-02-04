@@ -1,8 +1,8 @@
 .homeContainer {
+  margin: 20px auto;
   padding: 0 2rem;
-  border-top:10px groove pink;
-  width: 80%;
-  margin: 0 auto;
+  border-top:10px groove blanchedalmond;
+  width: 90%;
 }
 
 .main {
@@ -17,42 +17,47 @@
 .quickTipBox {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 100px;
+  width: 70%;
+  margin: 20px auto;
 }
 
-.quickTipBox > article > a{
+.quickTipBox > a {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  padding: 20px;
-  margin: 20px;
-  min-height: 400px;
+  justify-content: flex-start;
+  align-items: top;
+  border: 5px groove rgb(211, 107, 211);
+  padding: 0 10px;
+  margin: 30px;
+  min-height: 300px;
+  height: 90%;
 }
 
-.quickTipBox > article > a > p:nth-child(2) {
-  font-size: 20px;
+.cardTitle {
+  font-size: 2.5vmin;
   font-family: serif;
   font-weight: bold;
   
   text-align: center;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
-.quickTipBox > article > p:nth-child(3) {
-  font-size: 12px;
+.cardBody {
+  font-size: 1.5vmin;
   color: rgb(100, 100, 100);
-  padding: 10px 50px;
+  margin: 20px 50px;
   line-height: 20px;
   text-indent: 15px;
+  /* height: 100%; */
 }
 
 .quickTipBox svg {
-  height:100px;
-  width:100px;
-  margin: 50px;
+  height:80px;
+  width:80px;
+  margin: 20px;
   color: rebeccapurple;
+  margin-top: 10px;
+  align-self: center;
 }
 
 /* shared 1 & 2 */
@@ -72,6 +77,7 @@
   font-size: 2vmin;
   border-radius: 30px;
   border: 5px inset cornflowerblue;
+  box-shadow: 10px 10px #454545;
 }
 
 /* section 1 */
@@ -134,4 +140,38 @@
   margin-top:100px;
   padding: 10px 0;
   background-color: coral;
+}
+
+@media screen and (max-width: 1200px) {
+  /* .quickTipBox {
+    flex-direction: row;
+  }
+  .quickTipBox svg {
+    height: 50px;
+    width: 50px;
+  }
+  .quickTipBox > a {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .cardTitle{
+    font-size: 10px;
+  }
+  .cardBody {
+    padding: 7px;
+  } */
+
+}
+
+@media screen and (max-width: 1100px) {
+  .quickTipBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .quickTipBox > a {
+    justify-content: center;
+    margin: 10px 50px;
+  }
 }

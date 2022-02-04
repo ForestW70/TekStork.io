@@ -7,39 +7,38 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <p>Whaddup doc!</p>
 
       <div className={styles.quickTipBox}>
-        <article>
 
-          <a href="#whoThey">
-            <AiFillCrown />
-            <p>we will literally make you a king. </p>
-            <p>
-              Pug hell of et pour-over cloud bread, id offal flexitarian semiotics migas austin tilde magna. Prism venmo yr mlkshk, banjo pabst eu occupy kale chips taxidermy.
-            </p>
-          </a>
-        </article>
-        <article>
 
-          <a href="#ourClients">
-            <AiFillHome />
-            <p>Let us find you your new home.</p>
-            <p>
-              I*m baby cold-pressed blue bottle art party slow-carb kale chips activated charcoal. Church-key helvetica waistcoat, poutine cronut migas woke kale chips pok pok gochujang edison bulb trust fund actually wolf.
-            </p>
-          </a>
-        </article>
-        <article>
+        <a href="#whoThey">
+          <AiFillCrown />
+          <p className={styles.cardTitle}>we will literally make you a king. </p>
+          <p className={styles.cardBody}>
+            Pug hell of et pour-over cloud bread, id offal flexitarian semiotics migas austin tilde magna. Prism venmo yr mlkshk, banjo pabst eu occupy kale chips taxidermy.
+          </p>
+        </a>
 
-          <a href="#aboutUs">
-            <AiFillLock />
-            <p>You*ll lock down your next job, you beautiful human you.</p>
-            <p>
-              I*m baby typewriter waistcoat fashion axe cliche succulents, banjo cloud bread ex letterpress. Meh put a bird on it 8-bit tbh keffiyeh ex ad yr vegan hammock thundercats synth craft beer.
-            </p>
-          </a>
-        </article>
+
+
+        <a href="#ourClients">
+          <AiFillHome />
+          <p className={styles.cardTitle}>Let us find you your new home.</p>
+          <p className={styles.cardBody}>
+            I*m baby cold-pressed blue bottle art party slow-carb kale chips activated charcoal. Church-key helvetica waistcoat, poutine cronut migas woke kale chips pok pok gochujang edison bulb trust fund actually wolf.
+          </p>
+        </a>
+
+
+
+        <a href="#aboutUs">
+          <AiFillLock />
+          <p className={styles.cardTitle}>You*ll lock down your next job.</p>
+          <p className={styles.cardBody}>
+            I*m baby typewriter waistcoat fashion axe cliche succulents, banjo cloud bread ex letterpress. Meh put a bird on it 8-bit tbh keffiyeh ex ad yr vegan hammock thundercats synth craft beer.
+          </p>
+        </a>
+
       </div>
 
       <section className={styles.homeContainer}>

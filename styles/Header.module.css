@@ -7,11 +7,28 @@
 }
 
 .navBar a {
-    padding: 0 10px;
+    margin: 0 10px;
     color: white;
 }
 
 .headerBtn {
     color: #fff;
     background-color: coral;
+}
+
+.navBar a {
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin: auto 10px;
+    
+}
+
+.navBar a:hover {
+    background-color: coral;
+}
+
+@media screen and (max-width: 700px) {
+    .navBar a {
+        font-size: 10px;
+    }
 }
