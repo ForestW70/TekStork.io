@@ -11,30 +11,39 @@ export default function Home() {
 
       <div className={styles.quickTipBox}>
         <article>
-          <AiFillCrown />
-          <p>we will literally make you a king. </p>
-          <p>
-            Pug hell of et pour-over cloud bread, id offal flexitarian semiotics migas austin tilde magna. Prism venmo yr mlkshk, banjo pabst eu occupy kale chips taxidermy.
-          </p>
+
+          <a href="#whoThey">
+            <AiFillCrown />
+            <p>we will literally make you a king. </p>
+            <p>
+              Pug hell of et pour-over cloud bread, id offal flexitarian semiotics migas austin tilde magna. Prism venmo yr mlkshk, banjo pabst eu occupy kale chips taxidermy.
+            </p>
+          </a>
         </article>
         <article>
-          <AiFillHome />
-          <p>Let us find you your new home.</p>
-          <p>
-            I'm baby cold-pressed blue bottle art party slow-carb kale chips activated charcoal. Church-key helvetica waistcoat, poutine cronut migas woke kale chips pok pok gochujang edison bulb trust fund actually wolf.
-          </p>
+
+          <a href="#ourClients">
+            <AiFillHome />
+            <p>Let us find you your new home.</p>
+            <p>
+              I'm baby cold-pressed blue bottle art party slow-carb kale chips activated charcoal. Church-key helvetica waistcoat, poutine cronut migas woke kale chips pok pok gochujang edison bulb trust fund actually wolf.
+            </p>
+          </a>
         </article>
         <article>
-          <AiFillLock />
-          <p>You'll lock down your next job, you beautiful human you.</p>
-          <p>
-            I'm baby typewriter waistcoat fashion axe cliche succulents, banjo cloud bread ex letterpress. Meh put a bird on it 8-bit tbh keffiyeh ex ad yr vegan hammock thundercats synth craft beer.
-          </p>
+
+          <a href="#aboutUs">
+            <AiFillLock />
+            <p>You'll lock down your next job, you beautiful human you.</p>
+            <p>
+              I'm baby typewriter waistcoat fashion axe cliche succulents, banjo cloud bread ex letterpress. Meh put a bird on it 8-bit tbh keffiyeh ex ad yr vegan hammock thundercats synth craft beer.
+            </p>
+          </a>
         </article>
       </div>
 
       <section className={styles.homeContainer}>
-        <div className={styles.whoThey}>
+        <div className={styles.whoThey} id="whoThey">
           <h3>Who are we? And what do we really mean by king?</h3>
           <ul>
             <li>
@@ -47,7 +56,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className={styles.ourClients}>
+        <div className={styles.ourClients} id="ourClients">
           <h3>What we're looking for in our clientel.</h3>
           <ul>
             <li>
@@ -61,12 +70,29 @@ export default function Home() {
           </ul>
         </div>
 
+        <div className={styles.aboutUs} id="aboutUs">
+          <h2>
+            It's a wild, wild world out there, let TekStork deliver you your next career move.
+          </h2>
+          <article className={styles.beingDiff}>
+            <h4>What makes us stand out.</h4>
+            <p>
+              Raw denim hammock crucifix, dolore flexitarian incididunt ennui nulla paleo unicorn hashtag health goth small batch culpa migas. Mollit photo booth neutra taxidermy organic literally whatever kitsch. Lorem veniam ullamco, bespoke consequat church-key disrupt waistcoat blue bottle palo santo kogi 8-bit fashion axe aute. Ipsum esse chambray ut. Kale chips aesthetic street art, hoodie kinfolk heirloom artisan reprehenderit kombucha ex hell of est commodo qui quinoa.
+            </p>
+          </article>
+          <article className={styles.anotherOne}>
+            <h4>Here's another section</h4>
+            <p>
+              Raw denim hammock crucifix, dolore flexitarian incididunt ennui nulla paleo unicorn hashtag health goth small batch culpa migas. Mollit photo booth neutra taxidermy organic literally whatever kitsch. Lorem veniam ullamco, bespoke consequat church-key disrupt waistcoat blue bottle palo santo kogi 8-bit fashion axe aute. Ipsum esse chambray ut. Kale chips aesthetic street art, hoodie kinfolk heirloom artisan reprehenderit kombucha ex hell of est commodo qui quinoa.
+            </p>
+          </article>
+        </div>
+
       </section>
 
-      <div>
-        <span>What makes Us stand out.</span>
-      </div>
-
+      <footer className={styles.foot}>
+        <span>TekStork LLC. Arr. 2022</span>
+      </footer>
 
     </div>
   )
